@@ -5,7 +5,7 @@ Scrapes all the album reviews on Pitchfork.com by page number. Default is 1 page
 12 reviews each page.
 
 To scrape more than 1 page:
-`python pitchfork.py -p [integer]`
+`python pitchfork-scraper.py -p [integer]`
 
 Notes:
 
