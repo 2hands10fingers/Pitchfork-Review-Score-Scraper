@@ -16,3 +16,7 @@ Future editions:
 - Faster?
 - Export to CSV with command line arguments
 - Generate averages?
+
+
+Thank you,
+2hands10fingers
