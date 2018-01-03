@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup as bs
 from requests import get
 import argparse
-# import csv
 
 parser = argparse.ArgumentParser(description='Rename all images and append a number to the end')
 parser.add_argument('-p','--pages', type=int, help='the number of pages you wish to scrape')
@@ -10,7 +9,7 @@ args = parser.parse_args()
 
 
 if __name__ == '__main__':
-
+	
 	def linklooper(link):
 		review_page = 'https://pitchfork.com' + link
 		return review_page
