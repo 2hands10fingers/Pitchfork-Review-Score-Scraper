@@ -18,6 +18,8 @@ Notes:
 Future editions:
 - Faster?
 - Generate averages?
+- Scrape by year
+- Scrape by month
 
 
 Thank you,
