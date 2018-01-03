@@ -4,17 +4,19 @@ Scrapes all the album reviews on Pitchfork.com by page number. Default is 1 page
 
 12 reviews each page.
 
-To scrape more than 1 page:
-`python pitchfork-scraper.py -p [integer]`
+Now comes with command line arguments:
+```
+-p [integer] : Scrapes the designated amount of pages.
+--csv        : Saves results to a CSV
+
+```
 
 Notes:
 
 - A bit slow, really. Need to figure out how to make it faster.
 
 Future editions:
-
 - Faster?
-- Export to CSV with command line arguments
 - Generate averages?
 
 
